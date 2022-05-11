@@ -1,0 +1,609 @@
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.2;
+}
+
+.hidden{
+	display: none;
+}
+header{
+	background-color: #533b4d;
+	margin-bottom: 65px;
+}
+
+header nav{
+	display: flex;
+}
+header nav ul a{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	margin-right: 30px;
+	text-decoration: none;
+}
+header nav p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	color: #ffffff;
+	margin: auto;
+	margin-left: 15px;
+}
+header nav img{
+	height: 76px;
+	width: 79px;
+	margin-left: 12px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+header ul{
+	margin: auto;
+	margin-right: 0px;
+	display: flex;
+}
+header nav ul a:hover{
+	border-bottom: 3px solid #ffffff;
+}
+.banner{
+	width: 910px;
+	height: 500px;
+	background-image: url(../img/banner-image.png);
+	padding-top: 100px;
+	padding-left: 50px;
+}
+.cacti-so-pretty{
+	color: #ffffff;
+	width: 430px;
+	font-size: 60px;
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 35px;
+}
+.open-your-heart{
+	color: #ffffff;
+	width: 430px;
+	font-size: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 30px
+}
+.banner a{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #ffffff;
+	display:inline-block;
+	font-size: 36px;
+	text-decoration: none;
+}
+
+.banner div{
+	width: 245px;
+	border-radius: 8px;
+	background-color: #533b4d;
+	text-align: center;
+	padding-top: 23px;
+	padding-bottom: 23px;
+}
+
+.banner a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+.Cactus-care-section{
+	display: flex;
+	flex-wrap: wrap;
+}
+.Cactus-care-section div{
+	color: #ffffff;
+}
+.Cactus-care-section div h3{
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+.Cactus-care-section div p{
+	font-size: 16px;
+}
+.p1{
+	width: 390px;
+	margin-bottom: 30px;
+}
+.p2{
+	margin-bottom: 70px;
+}
+.Article1 > .p2{
+	width: 387px;
+}
+.Article2 > .p2{
+	width: 387px;
+}
+.Cactus-care-section div a{
+	font-size: 24px;
+	text-decoration: none;
+	display: inline-block;
+	color: #ffffff;
+}
+.Cactus-care-section div a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+.green-cacti{
+	width: 480px;
+	height: 500px;
+	background-image: url(../img/green-cacti.png);
+}
+.Article1{
+	width: 410px;
+	height: 470px;
+	background-color: #9b3f37;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 40px;
+}
+.Article2{
+	width: 410px;
+	height: 470px;
+	background-color: #9b3f37;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 40px;
+}
+.Palm-cacti{
+	width: 480px;
+	height: 500px;
+	background-image: url(../img/palm-cacti.png);
+}
+.About-us{
+	height: 640px;
+	display: flex;
+}
+.leftside{
+	width: 400px;
+	height: 365px;
+	background-image: url(../img/plants-illustration.png);
+	margin-top: 180px;
+	margin-bottom: 100px;
+	margin-right: 70px;
+}
+.rightside{
+	margin-top: 120px;
+	width: 500px;
+	height: 450px;
+	margin-bottom: 70px;
+}
+.rightside h3{
+	font-size: 72px;
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.rightside > .p1{
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 25px;
+	width: 500px;
+}
+.rightside > .p2{
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 25px;
+	width: 530px;
+}
+.rightside > .p3{
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 35px;
+	width: 520px;
+}
+.rightside > .p4{
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 550px;
+}
+footer{
+	border-top: 1px solid #1d0501;
+	padding-top: 60px;
+	height: 605px;
+}
+.flex-box{
+	display: flex;
+	margin-top: 60px;
+	margin-bottom: 85px;
+}
+.flex-box > div{
+	width: 306.666666667px;
+	height: 300px;
+}
+.flex-box div a{
+	font-size: 24px;
+	color: #1d0502;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.flex-box div a:hover{
+	border-bottom: 2px solid #19211f;
+}
+.flex-box div p{
+	font-size: 24px;
+	color: #1d0502;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+footer{
+	text-align: center;
+	margin-bottom: 320px;
+}
+.the-succ-shop{
+	margin-top: 10px;
+	font-size: 24px;
+	color: #19211f;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.flex-box div h3{
+	font-size: 24px;
+	color: #1d0502;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 30px;
+}
+footer > h3, footer > p{
+	font-size: 16px;
+	color: #1d0502;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+footer > h3{
+	margin-bottom: 15px;
+}
+.shop, .about{
+	margin-right: 20px;
+}
+.AddMargin{
+	margin-bottom: 30px;
+}
+
+/* shop page */
+.shop-header{
+	margin: 0;
+}
+.nav2{
+	background-color: #ffffff;
+	display: flex;
+	font-size: 18px;
+	color: #533b4d;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.nav2 a{
+	text-decoration: none;
+}
+.Cacti > p{
+	font-size: 18px;
+	color: #000000;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.Cacti-flex-box > div{
+	width: 240px;
+	text-align: center;
+}
+.Add-Margin{
+	margin-top: 50px;
+}
+.Cacti-flex-box{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.Cacti-flex-box > div > p{
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.bold{
+	font-weight: bold;
+}
+.ello{
+	background-image: url(../img/shop/scrim.png);
+	font-size: 48px;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	padding-top: 71.5px;
+	height: 128.5px;
+	margin-bottom: 30px;
+}
+.Echeveria > p{
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-bottom: 30px;
+}
+.echeveria-flex-box > div{
+	width: 240px;
+}
+.echeveria-flex-box > div > p{
+	font-size: 24px;
+	color: #1d0502;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.echeveria-flex-box{
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-bottom: 90px;
+}
+.shop-footer{
+	border-top: 1px solid #19211f;
+	color: #19211f;
+}
+.shop-footer > div > div > h3{
+	color: #19211f;
+}
+.shop-footer > div > div > div > a{
+	color: #19211f;
+}
+.shop-footer > div > div > p{
+	color: #19211f;
+}
+.shop-footer > h3, .shop-footer > p{
+	color: #19211f;
+}
+
+/* cart page */
+.cart-header{
+	margin-bottom: 20px;
+}
+.Cart-contents{
+	margin-bottom: 90px;
+}
+.row1{
+	height: 140px;
+	display: flex;
+	margin-bottom: 30px;
+}
+.row2{
+	height: 140px;
+	margin-top: 30px;
+	display: flex;
+	margin-bottom: 30px;
+}
+.row3{
+	height: 140px;
+	margin-top: 30px;
+	display: flex;
+}
+.quantity > p, .change-quantity > a, .description > h3, .description > p, .price > p, .X-mark > a, .remove-from-cart > a{
+	color: #18211e;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.quantity > p{
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+.change-quantity{
+	font-size: 16px;
+}
+.description > h3{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.description > p{
+	font-size: 18px;
+}
+.price > p{
+	font-size: 24px;
+}
+.X-mark{
+	font-size: 24px;
+}
+.X-mark > a{
+	text-decoration: none;
+}
+.remove-from-cart{
+	font-size: 16px;
+	margin-top: 25px;
+}
+.quantity{
+	width: 132px;
+	margin-right: 30px;
+	text-align: center;
+}
+.price{
+	width: 132px;
+	margin-right: 40px;
+}
+.image{
+	width: 142px;
+	margin-right: 30px;
+}
+.remove{
+	text-align: center;
+	width: 132px;
+}
+.description{
+	width: 322px;
+}
+.Cart-contents > p{
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #18211e;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.continue-shopping{
+	width: 340px;
+	height: 40px;
+	border-radius: 8px;
+	background-color: #9b3f37;
+	text-align: center;
+	padding-top: 10px;
+	margin: auto;
+}
+.continue-shopping > a{
+	text-decoration: none;
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #ffffff;
+}
+.continue-shopping > a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+.Login-and-Resgister-flex-box{
+	margin-bottom: 50px;
+	display: flex;
+	height: 700px
+}
+.log-in{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 390px;
+	background-color: #9b3f37;
+	color: #ffffff;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.log-in > h3{
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+.log-in > p{
+	width: 390px;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.login-email-address > label, .login-user-password > label{
+	display: block;
+	font-size: 18px;
+}
+.login-email-address > input, .login-user-password > input {
+	line-height: 45px;
+	width: 380px;
+	border: 1px solid #ffffff;
+}
+.login-email-address{
+	margin-bottom: 20px;
+}
+.login-user-password{
+	margin-bottom: 20px;
+}
+.remember-me{
+	margin-bottom: 130px;
+}
+.remember-me > label{
+	margin-left: 15px;
+}
+.login-and-checkout{
+	height: 45px;
+	width: 260px;
+	background-color: #533b4d;
+	border-radius: 8px;
+	text-align: center;
+	padding-top: 5px
+}
+.login-and-checkout > a{
+	font-size: 30px;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.login-and-checkout > a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+.register{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 390px;
+	color: #533b4d;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #ffffff;
+	border: 1px solid #533b4d;
+}
+.register > h3{
+	font-size: 36px;
+	margin-bottom: 40px;
+}
+.register > p{
+	font-size: 18px;
+	color: #18211e;
+	margin-bottom: 30px;
+	width: 390px;
+}
+.flex-box1, .flex-box2{
+	display: flex;
+	margin-bottom: 20px;
+}
+.register-email-address{
+	margin-bottom: 20px;
+}
+.register-first-name > label, .register-last-name > label, 
+.register-email-address > label, .register-user-password > label, 
+.confirm-register-user-password > label{
+	display: block;
+	font-size: 18px;
+}
+.register-first-name > input, .register-last-name > input, 
+.register-user-password > input, .confirm-register-user-password > input{
+	line-height: 45px;
+	width: 185px;
+	border: 1px solid #7fa9a1;
+}
+.register-email-address > input{
+ 	line-height: 45px;
+	width: 380px;
+	border: 1px solid #7fa9a1;
+}
+.register-first-name{
+	margin-right: 20px;
+}
+.register-user-password{
+	margin-right: 20px;
+}
+.Terms-and-condition{
+	margin-bottom: 40px;
+}
+.Terms-and-condition > label{
+	font-size: 18px;
+	margin-left: 15px;
+}
+.Terms-and-condition > label > a{
+	color: #9b4037;
+}
+.register-and-checkout{
+	width: 300px;
+	height: 45px;
+	padding-top: 5px;
+	text-align: center;
+	border-radius: 8px;
+	background-color: #533b4d;
+}
+.register-and-checkout > a{
+	font-size: 30px;
+	color:#ffffff;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.register-and-checkout > a:hover{
+	border-bottom: 1px solid #ffffff;
+}
+.ready-to-check-out{
+	text-align: center;
+	font-size: 72px;
+	color: #1d0502;
+	margin-bottom: 50px;
+}
+.not-interested{
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	color: #1d0502;
+	margin-bottom: 20px;
+}
+.checkout-as-guest{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.checkout-as-guest > a{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	color: #1d0502;
+}
+.cart-footer{
+	border-top: 1px solid #19211f;
+}
